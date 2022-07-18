@@ -1,57 +1,57 @@
 {
-  "dolci": [{
-      "id": "01bdefe9-1a98-4ee8-9bf3-a4db1dea314c",
-      "nome": "torta di mele",
-      "immagine": "https://www.lospicchiodaglio.it/img/ricette/tortamele.jpg",
-      "prezzo": 10.01,
-      "data": "2021-07-22",
-      "quantita": 3,
-      "ingredienti": ["Mele renette",
-        "Zucchero",
-        "Farina",
-        "Burro",
-        "Latte intero",
-        "Uova",
-        "Limoni",
-        "Lievito in polvere per dolci",
-        "Cannella in polvere",
-        "Sale fino"
-      ]
-    },
-    {
-      "id": "24b7ae3b-4c16-4daa-a207-b887a2d63195",
-      "nome": "sfogliatella",
-      "immagine": "https://as2.ftcdn.net/v2/jpg/04/74/85/51/1000_F_474855197_LGUZpizO25triKZfeTOfQYRqcWnfvhIp.jpg",
-      "prezzo": 1.5,
-      "data": "2021-07-21",
-      "quantita": 1,
-      "ingredienti": ["acqua",
-        "semolino",
-        "sale fino",
-        "gricotta vaccina",
-        "cannella in polvere",
-        "garance candite",
-        "aroma al limone",
-        "zucchero"
-      ]
-    },
-    {
-      "id": "18375ceb-79b3-4526-91bd-6637ecc4004d",
-      "nome": "cannolo",
-      "immagine": "https://f5n3y4q3.rocketcdn.me/wp-content/uploads/2019/06/four-cannoli-sicilia-or-sicilian-cannoli-1140x530.jpg.webp",
-      "prezzo": 1.5,
-      "data": "2021-07-21",
-      "quantita": 1,
-      "ingredienti": ["Farina ",
-        "Zucchero",
-        "Cacao amaro in polvere",
-        "Sale",
-        "Uova",
-        "Aceto di vino bianco",
-        "Marsala"
-      ]
-    }
-  ],
+  "dolci":[{
+        "id": "0",
+        "nome": "torta di mele",
+        "immagine": "https://www.lospicchiodaglio.it/img/ricette/tortamele.jpg",
+        "prezzo": 10.01,
+        "data": "2021-07-22",
+        "quantita": 3,
+        "ingredienti": ["Mele, ",
+          "Zucchero, ",
+          "Farina, ",
+          "Burro, ",
+          "Latte, ",
+          "Uova, ",
+          "Limoni, ",
+          "Lievito, ",
+          "Cannella, ",
+          "Sale "
+        ]
+      },
+      {
+        "id": "1",
+        "nome": "sfogliatella",
+        "immagine": "https://as2.ftcdn.net/v2/jpg/04/74/85/51/1000_F_474855197_LGUZpizO25triKZfeTOfQYRqcWnfvhIp.jpg",
+        "prezzo": 1.5,
+        "data": "2021-07-21",
+        "quantita": 1,
+        "ingredienti": ["acqua, ",
+          "semolino, ",
+          "sale, ",
+          "gricotta, ",
+          "cannella, ",
+          "garance, ",
+          "limone, ",
+          "zucchero"
+        ]
+      },
+      {
+        "id": "2",
+        "nome": "cannolo",
+        "immagine": "https://f5n3y4q3.rocketcdn.me/wp-content/uploads/2019/06/four-cannoli-sicilia-or-sicilian-cannoli-1140x530.jpg.webp",
+        "prezzo": 1.5,
+        "data": "2021-07-21",
+        "quantita": 1,
+        "ingredienti": ["Farina, ",
+          "Zucchero, ",
+          "Cacao, ",
+          "Sale, ",
+          "Uova, ",
+          "Aceto, ",
+          "Marsala"
+        ]
+      }
+    ],
   "utenti": [{
       "user": "mario",
       "pass": "1234"
