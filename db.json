@@ -1,58 +1,71 @@
 {
-  "dolci":[{
-        "id": "0",
-        "nome": "torta di mele",
-        "immagine": "https://www.lospicchiodaglio.it/img/ricette/tortamele.jpg",
-        "prezzo": 10.01,
-        "data": "2021-07-22",
-        "quantita": 3,
-        "ingredienti": ["Mele, ",
-          "Zucchero, ",
-          "Farina, ",
-          "Burro, ",
-          "Latte, ",
-          "Uova, ",
-          "Limoni, ",
-          "Lievito, ",
-          "Cannella, ",
-          "Sale "
-        ]
-      },
-      {
-        "id": "1",
-        "nome": "sfogliatella",
-        "immagine": "https://as2.ftcdn.net/v2/jpg/04/74/85/51/1000_F_474855197_LGUZpizO25triKZfeTOfQYRqcWnfvhIp.jpg",
-        "prezzo": 1.5,
-        "data": "2021-07-21",
-        "quantita": 1,
-        "ingredienti": ["acqua, ",
-          "semolino, ",
-          "sale, ",
-          "gricotta, ",
-          "cannella, ",
-          "garance, ",
-          "limone, ",
-          "zucchero"
-        ]
-      },
-      {
-        "id": "2",
-        "nome": "cannolo",
-        "immagine": "https://f5n3y4q3.rocketcdn.me/wp-content/uploads/2019/06/four-cannoli-sicilia-or-sicilian-cannoli-1140x530.jpg.webp",
-        "prezzo": 1.5,
-        "data": "2021-07-21",
-        "quantita": 1,
-        "ingredienti": ["Farina, ",
-          "Zucchero, ",
-          "Cacao, ",
-          "Sale, ",
-          "Uova, ",
-          "Aceto, ",
-          "Marsala"
-        ]
-      }
-    ],
-  "utenti": [{
+  "dolci": [
+    {
+      "id": "0",
+      "nome": "torta di mele",
+      "immagine": "https://www.lospicchiodaglio.it/img/ricette/tortamele.jpg",
+      "prezzo": 10.01,
+      "data": "2021-07-22",
+      "quantita": 3,
+      "ingredienti": [
+        "Mele, ",
+        "Zucchero, ",
+        "Farina, ",
+        "Burro, ",
+        "Latte, ",
+        "Uova, ",
+        "Limoni, ",
+        "Lievito, ",
+        "Cannella, ",
+        "Sale "
+      ]
+    },
+    {
+      "id": "1",
+      "nome": "sfogliatella",
+      "immagine": "https://as2.ftcdn.net/v2/jpg/04/74/85/51/1000_F_474855197_LGUZpizO25triKZfeTOfQYRqcWnfvhIp.jpg",
+      "prezzo": 1.5,
+      "data": "2021-07-21",
+      "quantita": 1,
+      "ingredienti": [
+        "acqua, ",
+        "semolino, ",
+        "sale, ",
+        "gricotta, ",
+        "cannella, ",
+        "garance, ",
+        "limone, ",
+        "zucchero"
+      ]
+    },
+    {
+      "id": "2",
+      "nome": "cannolo",
+      "immagine": "https://f5n3y4q3.rocketcdn.me/wp-content/uploads/2019/06/four-cannoli-sicilia-or-sicilian-cannoli-1140x530.jpg.webp",
+      "prezzo": 1.5,
+      "data": "2021-07-21",
+      "quantita": 1,
+      "ingredienti": [
+        "Farina, ",
+        "Zucchero, ",
+        "Cacao, ",
+        "Sale, ",
+        "Uova, ",
+        "Aceto, ",
+        "Marsala"
+      ]
+    },
+    {
+      "nome": "sssss",
+      "immagine": "http://www.ioamolasicilia.com/wp-content/uploads/2015/03/IMG_4072.jpg",
+      "prezzo": "1.3",
+      "quantita": "3",
+      "ingredienti": "limone cacao",
+      "id": "3wl8YRH"
+    }
+  ],
+  "utenti": [
+    {
       "user": "mario",
       "pass": "1234"
     },
