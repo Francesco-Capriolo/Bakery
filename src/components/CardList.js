@@ -41,7 +41,7 @@ function CardList() {
                         <img src={dolci.immagine} className="card-img-top img-fluid" alt="..." style = {{ height:"15rem" }} /> 
                             <div className="card-body">
                                 <h5 className="card-title"> {dolci.nome} </h5>
-                                <p className="card-text">Sono rimasti {dolci.quantita}</p>
+                                <p className="card-text border">€ {dolci.prezzo}</p>
                                 <Link to={`/dolci/${dolci.id}`} type="submit" className="btn btn-outline-success m-1" /* onClick={() => props.removeId(id)} */ >Detail</Link>
                                 <Link to={`/edit/${dolci.id}`} type="submit" className="btn btn-outline-primary m-1" /* onClick={() => props.removeId(id)} */ >Edit</Link>
                                 <button type="submit" className="btn btn-outline-danger m-1" onClick={() => productDelete(dolci.id)}>Delete</button>

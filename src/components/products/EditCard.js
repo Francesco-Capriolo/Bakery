@@ -1,5 +1,5 @@
-import React, { useEffect,useState } from "react";
 import axios from "axios";
+import React, { useEffect,useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 
 function EditCard() {
@@ -13,18 +13,18 @@ function EditCard() {
     const navigate = useNavigate();
     const {id} = useParams();
 
-    /* const formData = {
+    const formData = {
         nome: nome,
         immagine: immagine,
         prezzo: prezzo,
         quantita: quantita,
         ingredienti: ingredienti
-    } */
+    } 
 
     //per far vedere i dati dal json
     useEffect(() => {
         axios.get(`http://localhost:4000/dolci/${id}`)
-            .then((response) => {
+        .then((response) => {
                 setNome(response.data.nome);
                 setImmagine(response.data.immagine);
                 setPrezzo(response.data.prezzo);
@@ -40,11 +40,9 @@ function EditCard() {
     //per aggiornare 
     function formUpdate(e) {
         e.preventDefaut();
-        axios.put(`http://localhost:4000/dolci/${id}`)
+        axios.put(`http://localhost:4000/dolci/${id}`,formData)
             .then(navigate("/"))
-            .catch(error => {
-            console.log(error.response)
-            });
+            
     }
     return (
         <div>
